@@ -151,7 +151,7 @@ public class NetEaseCrawler {
         Connection.Response response = Jsoup
                 .connect(RECORD_URL)
                 .method(Connection.Method.POST)
-                .header("Referer", "http://music.163.com/user/home?id=260610597")
+                .header("Referer", "http://music.163.com/user/home?id=103352648")
                 .ignoreContentType(true)
                 .data(ImmutableMap.of("params", encText, "encSecKey", encSecKey))
                 .execute();
